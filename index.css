@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+/* .container{
+    border: solid;
+} */
+
+.items-container{
+    width: 80%;
+    padding: 15px 7px;
+    background: rgb(253, 247, 247);
+    margin: auto;
+    margin-top: 15vh;
+}
+.sider-container{
+    display:flex;
+}
+.bigsider{
+    flex: 3;
+}
+.smallsider{
+    flex: 1;
+    margin: 0px 30px;
+    padding: 0px 20px;
+}
+
+.item-list{
+    display: flex;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+.productcontained{
+    align-items: center;
+    border: none;
+}
+.product{
+    flex: 2;
+}
+.size{
+    flex: 1;
+}
+.quantity{
+    flex: 1;
+}
+.price{
+    flex: 1;
+}
+/* .product-img{
+    width: 200px;
+    height: 200px;
+} */
+
+.product-img img{
+    width: 100px;
+    height: 100px;
+}
+.product-items{
+    display: flex;
+}
+.product-text{
+    padding-top: 30px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.sizetext{
+    width: 100px;
+    text-align: center;
+    padding:7px 0px;
+    border-radius: 5px;
+    background: rgb(245, 235, 235);
+}
+
+.back-pricesummary{
+    display: flex;
+}
+
+.back{
+    flex:3
+}
+.pricesummary{
+    flex: 1;
+}
+
+.expire{
+    display: flex;
+}
+.expiredate{
+    display: flex;
+}
+
+.expiredate h6{
+   margin-right: 10px;
+   padding: 8px 15px;
+}
+.cvv{
+    margin-left: 50px;
+}
+.cvv h6{
+    margin-right: 10px;
+    padding: 8px 15px;
+}
+
+button{
+    border: none;
+   color: white;
+    width: 60%;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background: blue;
+   margin-top: 90px;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+} 
+.back h1{
+margin-top: 70px;
+font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .items-container{
+        width: 100%;
+        background: rgb(253, 247, 247);
+        margin: auto;
+        margin-top: 15vh;
+    }
+    .sider-container{
+        display:block;
+    }
+
+    .smallsider{
+        flex: 1;
+        margin: 30px;
+        padding: 0px 20px;
+    }
+
+    .sizetext{
+        width: 80%;
+    }
+}
