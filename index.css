@@ -24,8 +24,11 @@ body{
 }
 .bigsider{
     flex: 3;
+    padding: 10px;
+    background: rgb(255, 255, 255);
 }
 .smallsider{
+    background: rgb(255, 255, 255);
     flex: 1;
     margin: 0px 30px;
     padding: 0px 20px;
